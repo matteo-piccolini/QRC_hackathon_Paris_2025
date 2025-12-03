@@ -10,7 +10,7 @@ This project implements a **Quantum Reservoir Computing (QRC)** model, based on 
 
 The repository is structured around two core files:
 
-1.  `hackaton_Paris_2025.ipynb`: The primary Jupyter Notebook detailing the entire workflow, from data loading, pre-processing (PCA and $\mathbf{[0, 2\pi]}$ normalization), QRC circuit execution, Ridge Regression readout training, and final comparison against the classical baseline.
+1.  `hackathon_Paris_2025.ipynb`: The primary Jupyter Notebook detailing the entire workflow, from data loading, pre-processing (PCA and $\mathbf{[0, 2\pi]}$ normalization), QRC circuit execution, Ridge Regression readout training, and final comparison against the classical baseline.
 2.  `Generate_QRC_circuit.py`: An auxiliary Python module containing the reusable functions necessary to build and parametrize the quantum reservoir circuit.
 
 ---
