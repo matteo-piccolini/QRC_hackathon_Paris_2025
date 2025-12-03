@@ -23,7 +23,7 @@ This module defines the architectural backbone of the Quantum Reservoir (QR), us
 
 | Function Name | Description |
 | :--- | :--- |
-| **`build_QRC_layer`** | Constructs a single time step (layer) of the reservoir. It applies **Angle Encoding** ($\mathbf{R}_Y$) of input features and simulates the fixed **Ising Hamiltonian evolution** (via $\mathbf{R}_Z$ local fields and $\mathbf{R}_{XX}$ coupling). |
+| **`build_QRC_layer`** | Constructs a single time step (layer) of the reservoir. It applies **Angle Encoding** ($\mathbf{R}\_Y$) of input features and simulates the fixed **Ising Hamiltonian evolution** (via $\mathbf{R}\_Z$ local fields and $\mathbf{R}\_{XX}$ coupling). |
 | **`build_QRC_circuit`** | Assembles the complete QRC circuit by stacking multiple layers (`num_layers`) and manages the quantum registers (input/hidden qubits). Crucially, it applies a **reset operation** to the input qubits after each layer to maintain the reservoir's state between time steps. |
 
 ---
